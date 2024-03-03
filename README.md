@@ -16,3 +16,41 @@ A 1D row of 0's or 1's is evolved through iterations of the ruleset.
 ![3](cellular_automata_1D/images/3.png)
 ![4](cellular_automata_1D/images/4.png)
 </details>
+
+## [Orbits](/orbits/orbits.ipynb)
+Inspired by a X(Twitter) post, I recreated an animated version of an attractor-like equation, presented simply as "Orbits".
+The orbits are soley defined by the equations
+
+    x_next = sin(x**2 - y**2 + c1)
+    y_next = cos(2*x*y + c2)
+    
+The equations can, theoretically, be exchanged with any (periodic) trigonometric function, such as the tan.
+
+<details>
+<summary>Evaluating the equations and varying c2 results in the these videos:</summary>
+sin in the first equation
+
+![sin](orbits/images/attractor_c1_3.522_sin.gif)
+
+tan instead of sin in the first equation
+
+![tan](orbits/images/attractor_0.222_tan.gif)
+
+
+</details>
+
+<details>
+<summary>Evaluating the equations results in images like this:</summary>
+sin in the first equation
+
+![1](orbits/images/sin_3.52_1.01.png)
+
+![1](orbits/images/sin_3.52_1.622.png)
+
+tan instead of sin in the first equation
+
+![1](orbits/images/tan_0.222_1.07.png)
+
+![2](orbits/images/tan_0.222_1.57.png)
+
+</details>
