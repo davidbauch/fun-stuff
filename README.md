@@ -62,8 +62,7 @@ Future plans: Visualize more advanced sorting algorithms like heapsort, bucket s
 
 <details>
 <summary>Example Video</summary>
-<video width="600" height="800" controls>
-  <source src="sorting_algorithms/sorting_algos.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+![sortingalgos](sorting_algorithms/sorting_algos.gif)
+
 </details>
