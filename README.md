@@ -55,6 +55,21 @@ tan instead of sin in the first equation
 
 </details>
 
+## [Matrix Eigenvalue Visualizer](/eigenvalue_visualizer/README.md)
+
+Short [Jupyter Notebook](eigenvalue_visualizer/eigenvalue_visualizer.ipynb) to visualize the Eigenvalues of special square matrices
+
+<details>
+<summary>Short Summary and Example</summary>
+Takes a complex `N x N` matrix with two randomly chosen variable elements.
+
+Calculates the Eigenvalues of this matrix varying the two variable elements.
+
+Plots the resulting Eigenvalues.
+
+![example](eigenvalue_visualizer/img/3.png)
+</details>
+
 ## [Sorting Algorithms](/sorting_algorithms/sorting_algorithms.ipynb)
 Visualization for simple sorting algorithms. The rules for implementation are simple: No loops, no in-build function like slicing or copying of lists. Every read or write has to be done interatively. This maximizes viewing pleasure :)
 
