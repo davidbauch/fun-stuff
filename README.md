@@ -54,3 +54,16 @@ tan instead of sin in the first equation
 ![2](orbits/images/tan_0.222_1.57.png)
 
 </details>
+
+## [Sorting Algorithms](/sorting_algorithms/sorting_algorithms.ipynb)
+Visualization for simple sorting algorithms. The rules for implementation are simple: No loops, no in-build function like slicing or copying of lists. Every read or write has to be done interatively. This maximizes viewing pleasure :)
+
+Future plans: Visualize more advanced sorting algorithms like heapsort, bucket sort and so on.
+
+<details>
+<summary>Example Video</summary>
+<video width="600" height="800" controls>
+  <source src="sorting_algorithms/sorting_algos.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</details>
